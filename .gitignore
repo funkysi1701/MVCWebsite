@@ -1,0 +1,89 @@
+# Directories #
+###############
+[Oo]bj/
+[Bb]in/
+TestResults/
+imagecache/
+
+# Resharper #
+#############
+/_ReSharper.*
+*.ReSharper.*
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.ldf
+*.mdf
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+Index.dat
+Storage.dat
+
+# VS Generated files #
+######################
+*.vspscc
+*.vssscc
+*.suo
+*.user
+*.orig
+*.dbmdl
+packages/
+
+# Other Generated files #
+######################
+StyleCop.Cache
+UpgradeLog2.htm
+UpgradeLog2.XML
+_UpgradeReport_Files
+_ConversionReport_Files
+UpgradeLog.XML
+ConversionLog.xml
+
+# Project-specific folders #
+####################
+[Ll]ogs/
+[Bb]ackup
+[Rr]elease/
+[Tt]estResults/
+[Tt]mp/
+/src/Eurosafe.Clouds.Database/sql/debug/
+
+# Project-specific files #
+####################
+local.properties.xml
+[Aa]pp.[Cc]onfig
+/src/Clouds.Web/[Ww]eb.[Cc]onfig
+/src/Clouds.Web/[Ss]ettings.[Cc]onfig
+/src/Clouds.Core.Test/Settings.Config
+Eurosafe.Clouds.Test.dll.config
+sql/brand.restore.sql
+sql/brand.create.sql
+sql/brand.patch.sql
+/src/Clouds.Help/HelpLinks.xls
+/src/Clouds.Help/config/settings.asp
+
+src/Clouds.Web/Properties/PublishProfiles/*.pubxml
+
+.vs/
+build/Scripts/Clouds UK web services.publishsettings
+src/Clouds.Web/Settings.Config.ImporttoAzure
